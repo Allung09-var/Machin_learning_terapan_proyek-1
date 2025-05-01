@@ -125,5 +125,9 @@ Nilai MAE dan RMSE yang cukup rendah menunjukkan bahwa model dapat menjelaskan s
 
 ## Penutup
 
-Proyek ini menunjukkan bahwa algoritma XGBoost sangat efektif untuk memprediksi harga mobil bekas dalam konteks platform jual beli digital. Dengan eksplorasi fitur yang tepat dan pemrosesan data yang hati-hati, model dapat memberikan prediksi yang mendekati nilai aktual. Model ini dapat diintegrasikan sebagai fitur tambahan dalam sistem rekomendasi harga di platform e-commerce otomotif untuk meningkatkan pengalaman pengguna dan efisiensi pasar.
+Hasil evaluasi menunjukkan bahwa baik XGBoost maupun LightGBM mampu memberikan prediksi dengan performa yang sangat kompetitif dan konsisten. Model XGBoost sedikit lebih unggul dalam hal akurasi, ditunjukkan oleh nilai MAE sebesar 23.670,91 dan RMSE sebesar 27.197,81, dibandingkan LightGBM yang memperoleh MAE sebesar 23.691,27 dan RMSE sebesar 27.215,16. Selisih performa antara kedua model sangat kecil, yang mengindikasikan bahwa keduanya bekerja secara sebanding dalam memetakan hubungan antara fitur dan target.
+
+Dari segi R² Score, XGBoost mencatatkan nilai sebesar 0,0034, sedikit lebih tinggi daripada LightGBM sebesar 0,0021. Meskipun nilai R² tersebut belum terlalu besar, hal ini menunjukkan bahwa model sudah mulai menangkap pola dalam data, dan berpotensi ditingkatkan lebih lanjut melalui optimalisasi lanjutan seperti pemilihan fitur yang lebih selektif atau pemrosesan data tambahan.
+
+Secara keseluruhan, dapat disimpulkan bahwa kedua algoritma gradient boosting ini telah menunjukkan performa yang baik dan seimbang, dengan XGBoost memberikan hasil yang sedikit lebih optimal. Kedua model dapat menjadi pilihan yang solid untuk digunakan dalam prediksi dengan karakteristik data yang serupa.
 """
