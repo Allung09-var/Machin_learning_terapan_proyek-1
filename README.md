@@ -131,3 +131,14 @@ Dari segi R² Score, XGBoost mencatatkan nilai sebesar 0,0034, sedikit lebih tin
 
 Secara keseluruhan, dapat disimpulkan bahwa kedua algoritma gradient boosting ini telah menunjukkan performa yang baik dan seimbang, dengan XGBoost memberikan hasil yang sedikit lebih optimal. Kedua model dapat menjadi pilihan yang solid untuk digunakan dalam prediksi dengan karakteristik data yang serupa.
 """
+
+## REFERENSI
+
+Saputri, P. N., Alzami, F., Saputra, F. O., Andono, P. N., Megantara, R. A., Handoko, L. B., ... & Wahyudi, F. (2023). Implementation Of Extreme Gradient Boosting Algorithm For Predicting The Red Onion Prices. Moneter: Jurnal Keuangan dan Perbankan, 11(1), 18-27.
+
+Biswal, U. S., Mishra, M., Singh, M. K., & Pasla, D. (2022). Experimental investigation and comparative machine learning prediction of the compressive strength of recycled aggregate concrete incorporated with fly ash, GGBS, and metakaolin. Innovative Infrastructure Solutions, 7(4), 242.
+
+Zhang, A., Lipton, Z. C., Li, M., & Smola, A. J. (2023). Dive into deep learning. Cambridge University Press.
+
+
+
